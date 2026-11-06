@@ -8,27 +8,4 @@ spring:
     import: optional:configserver:http://localhost:8888
   data:
     mongodb:
-      host: ${MONGODB_HOST:localhost}
-      port: ${MONGODB_PORT:27017}
       database: bank-auth
-
-bank:
-  security:
-    jwt-secret: bank-bootcamp-demo-secret-change-me
-    jwt-expiration-minutes: 120
-    bootstrap-username: admin
-    bootstrap-password: admin123
-
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8761/eureka
-  instance:
-    prefer-ip-address: true
-
-springdoc:
-  api-docs:
-    enabled: false
-  swagger-ui:
-    url: /openapi.yaml
-    disable-swagger-default-url: true
