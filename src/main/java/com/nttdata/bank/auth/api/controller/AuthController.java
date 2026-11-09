@@ -1,10 +1,10 @@
-package com.nttdata.bank.auth.api;
+package com.nttdata.bank.auth.api.controller;
 
-import com.nttdata.bank.auth.api.AuthDtos.LoginRequest;
-import com.nttdata.bank.auth.api.AuthDtos.RegisterRequest;
-import com.nttdata.bank.auth.api.AuthDtos.TokenResponse;
+import com.nttdata.bank.auth.api.dto.LoginRequest;
+import com.nttdata.bank.auth.api.dto.RegisterRequest;
+import com.nttdata.bank.auth.api.dto.TokenResponse;
 import com.nttdata.bank.auth.api.contract.AuthApi;
-import com.nttdata.bank.auth.application.AuthService;
+import com.nttdata.bank.auth.service.AuthService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RestController;

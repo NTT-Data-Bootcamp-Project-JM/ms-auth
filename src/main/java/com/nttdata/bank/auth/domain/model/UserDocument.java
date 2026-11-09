@@ -1,4 +1,4 @@
-package com.nttdata.bank.auth.domain;
+package com.nttdata.bank.auth.domain.model;
 
 import lombok.Getter;
 import lombok.Setter;

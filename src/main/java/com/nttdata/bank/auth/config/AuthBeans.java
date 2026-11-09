@@ -1,7 +1,7 @@
 package com.nttdata.bank.auth.config;
 
-import com.nttdata.bank.auth.domain.UserDocument;
-import com.nttdata.bank.auth.domain.UserRepository;
+import com.nttdata.bank.auth.domain.model.UserDocument;
+import com.nttdata.bank.auth.domain.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;

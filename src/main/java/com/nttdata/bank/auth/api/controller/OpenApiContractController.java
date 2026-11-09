@@ -1,4 +1,4 @@
-package com.nttdata.bank.auth.api;
+package com.nttdata.bank.auth.api.controller;
 
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;

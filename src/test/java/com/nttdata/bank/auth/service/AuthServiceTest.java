@@ -1,10 +1,10 @@
-package com.nttdata.bank.auth.application;
+package com.nttdata.bank.auth.service;
 
-import com.nttdata.bank.auth.api.AuthDtos.LoginRequest;
-import com.nttdata.bank.auth.api.AuthDtos.RegisterRequest;
-import com.nttdata.bank.auth.api.AuthDtos.TokenResponse;
-import com.nttdata.bank.auth.domain.UserDocument;
-import com.nttdata.bank.auth.domain.UserRepository;
+import com.nttdata.bank.auth.api.dto.LoginRequest;
+import com.nttdata.bank.auth.api.dto.RegisterRequest;
+import com.nttdata.bank.auth.api.dto.TokenResponse;
+import com.nttdata.bank.auth.domain.model.UserDocument;
+import com.nttdata.bank.auth.domain.repository.UserRepository;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.security.Keys;
 import org.junit.jupiter.api.BeforeEach;

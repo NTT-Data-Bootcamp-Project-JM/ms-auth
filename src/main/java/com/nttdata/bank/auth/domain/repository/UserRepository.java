@@ -1,4 +1,6 @@
-package com.nttdata.bank.auth.domain;
+package com.nttdata.bank.auth.domain.repository;
+
+import com.nttdata.bank.auth.domain.model.UserDocument;
 
 import org.springframework.data.mongodb.repository.MongoRepository;
 
